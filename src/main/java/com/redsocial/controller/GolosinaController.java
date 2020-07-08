@@ -51,7 +51,7 @@ public class GolosinaController {
 		}else {
 			session.setAttribute("MENSAJE", "Registro exitos");
 		}
-		return "crudGolosina";
+		return "redirect:verCrudGolosina";
 	}
 	
 	@RequestMapping("/eliminaCrudGolosina")

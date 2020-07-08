@@ -102,7 +102,7 @@
 					<h4><span class="glyphicon glyphicon-ok-sign"></span> Registro de golosina</h4>
 				</div>
 				<div class="modal-body" style="padding: 20px 10px;">
-						<form id="id_form_registra" accept-charset="UTF-8" action="registraActualizaCrudGolosina" class="form-horizontal"     method="post">
+						<form id="id_form_registra" accept-charset="UTF-8" action="registroDeGolosina" class="form-horizontal"     method="post">
 		                    <div class="panel-group" id="steps">
 		                        <!-- Step 1 -->
 		                        <div class="panel panel-default">
@@ -120,7 +120,7 @@
 		                                    <div class="form-group">
 		                                        <label class="col-lg-3 control-label" for="id_reg_precio">Precio</label>
 		                                        <div class="col-lg-5">
-													<input class="form-control" id="id_reg_precio" name="precio" placeholder="Ingrese el precio" type="text" maxlength="2"/>
+													<input class="form-control" id="id_reg_precio" name="precio" placeholder="Ingrese el precio" type="text" maxlength="5"/>
 		                                        </div>
 		                                    </div>
 		                                    <div class="form-group">
@@ -132,7 +132,7 @@
 		                                    <div class="form-group">
 		                                        <label class="col-lg-3 control-label" for="id_reg_categoria">Categoria</label>
 		                                        <div class="col-lg-5">
-													<input class="form-control" id="id_reg_categoria" name="categoria" placeholder="Ingrese la categoria" type="text" maxlength="2"/>
+													<input class="form-control" id="id_reg_categoria" name="categoria" placeholder="Ingrese la categoria" type="text" maxlength="30"/>
 		                                        </div>
 		                                    </div>		   
 		                                    <div class="form-group">
@@ -179,7 +179,7 @@
 					<h4><span class="glyphicon glyphicon-ok-sign"></span> Actualiza Golosina</h4>
 				</div>
 				<div class="modal-body" style="padding: 20px 10px;">
-						<form id="id_form_actualiza" accept-charset="UTF-8"  action="registraActualizaCrudGolosina" class="form-horizontal"     method="post">
+						<form id="id_form_actualiza" accept-charset="UTF-8"  action="insertaActualizaGolosina" class="form-horizontal"     method="post">
 		                    <div class="panel-group" id="steps">
 		                        <!-- Step 1 -->
 		                        <div class="panel panel-default">
@@ -203,19 +203,19 @@
 		                                    <div class="form-group">
 		                                        <label class="col-lg-3 control-label" for="id_act_precio">Precio</label>
 		                                        <div class="col-lg-5">
-													<input class="form-control" id="id_act_precio" name="precio" placeholder="Ingrese el precio" type="text" maxlength="2"/>
+													<input class="form-control" id="id_act_precio" name="precio" placeholder="Ingrese el precio" type="text" maxlength="5"/>
 		                                        </div>
 		                                    </div>
 		                                    <div class="form-group">
 		                                        <label class="col-lg-3 control-label" for="id_act_stock">Stock</label>
 		                                        <div class="col-lg-5">
-													<input class="form-control" id="id_act_stock" name="stock" placeholder="Ingrese el stock" type="text" maxlength="2"/>
+													<input class="form-control" id="id_act_stock" name="stock" placeholder="Ingrese el stock" type="text" maxlength="5"/>
 		                                        </div>
 		                                    </div>
 		                                    <div class="form-group">
 		                                        <label class="col-lg-3 control-label" for="id_reg_categoria">Categoria</label>
 		                                        <div class="col-lg-5">
-													<input class="form-control" id="id_act_categoria" name="categoria" placeholder="Ingrese la categoria" type="text" maxlength="2"/>
+													<input class="form-control" id="id_act_categoria" name="categoria" placeholder="Ingrese la categoria" type="text" maxlength="30"/>
 		                                        </div>
 		                                    </div>		   
 		                                    <div class="form-group">
